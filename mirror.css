@@ -1,0 +1,126 @@
+h1{
+  background-color: bisque;
+  background-image: url("C:\Users\Estagiários 05\Desktop\lucas\mirrorfashion\img\sobre-background.jpg");
+  
+   /*Serve pra mexer na posição do  position: relative;  
+      top: 20px;
+      left: 50px;
+      padding:  17px 200px; h1*/
+}
+p{
+  padding: 5px 15px; /*o primeiro valor é o esbaço acima e abaixo e o segundo é o ao lados. tb dá pra passar 4, se quiser editar a distancia de todos os lados */
+ 
+}
+h2{
+  background-color: bisque;
+}
+body {
+  border-color: red;
+  border-style: solid;
+  border-width: 3px;
+
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px; /*largura da pagina*/
+}
+figure {
+  background-color: #F2EDED;
+  border: 1px solid #ccc;
+  text-align: center;  
+
+  padding: 15px 10px 15px;
+  margin: 30px;    
+}
+figcaption {
+  font-style: italic;
+}
+#esse{
+  color: blue;
+}
+#centro-d{ /* ver como editar essa merda de imagem*/
+  float: center;
+  /*era isso q tava me pegando na dimensionalização da imagem */
+ 
+  padding:10px 10px 10px 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+#rodape {
+  color: #777;
+  margin: 30px 0;
+  padding: 30px 0;
+}
+#rodape img {
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 94px;
+  padding:10px 10px 10px 60px;
+}
+#pelho{
+  float: right; 
+  width: 35%; /*era isso q tava me pegando na dimensionalização da imagem */
+  padding:10px 10px 1px 1px;
+  margin-bottom: 10px;
+}
+.sacola {
+  background-image: url(mirrorfashion/img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+ 
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+   /* coloquei isso aqui pq n consegui centralizar o menu e sacola com o container*/
+    margin: 0px 0px 40px 180px ; /* cima x direita x baixo x esquerda */
+  }
+ 
+.menu-opcoes ul {
+  font-size: 15px;
+}
+ 
+.menu-opcoes a {
+  color: #003366;
+}
+
+nav ul li {       
+  display: inline;
+  margin-left: 20px;
+}  
+.sacola {
+  padding-top: 1px;
+}
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+#erro{ /*coloquei isso aqui pq n consegui centralizar o menu e sacola com o container*/
+  margin-left: 170px;
+}
+.logotipo { /*fez o rodape se mover */
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.quadrado {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+}
+.test {
+  background-color:red;
+}
+.absoluto {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.relativo {
+  position: relative;
+}
